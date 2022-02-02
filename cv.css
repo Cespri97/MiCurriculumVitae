@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.enlaces{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: right;
+    color: black;
+    font-size: 24px;  
+    
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+
+a:hover{
+    cursor: pointer;
+    font-size: larger;        
+}
+
+
+.twitter{
+    background-image: url(Imagenes/iconfinder-social-media-applications-6twitter-4102580_113802.png);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    margin-left: 30px;
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    border-radius: 10px;
+    border: none;       
+}
+
+.linkedin{
+    background-image: url(Imagenes/linkedin_socialnetwork_17441.png);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    border-radius: 10px;  
+    border: none;
+}
+
+
+.github{
+    background-image: url(Imagenes/github-logo_icon-icons.com_73546.png);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    background-color: white;
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    border-radius: 160px;  
+    border: none;
+}
+
+
+
